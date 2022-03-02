@@ -1,0 +1,76 @@
+// Colors
+$black: black;
+$btn-grey: #a0a0a0;
+$btn-orange: #f5a002;
+$btn-dark-grey: #333333;
+
+.container,
+.calculator-app {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  width: 242px;
+  height: 492px;
+  border-radius: 45px;
+}
+
+.result {
+  margin-right: 8px;
+  font-size: 4em;
+  color: white;
+}
+// .panel {
+//   .panel-heading {
+//     background-color: $black;
+//     margin-bottom: 86px;
+//     .row {
+//       text-align: right;
+//       margin-right: 22px;
+//     }
+//   }
+//   background-color: $black;
+// }
+.custom {
+  text-align: right;
+  margin-right: 22px;
+}
+
+button {
+  font-size: 1.3em;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 9px;
+  border: none;
+
+  &:first-of-type {
+    margin-left: 8px;
+  }
+}
+
+.btn-orange {
+  color: white;
+  background-color: $btn-orange;
+}
+.btn-grey {
+  background-color: $btn-grey;
+}
+
+.btn-dark-grey {
+  background-color: $btn-dark-grey;
+  color: white;
+}
+
+.long-button {
+  width: 216px;
+  border-radius: 42px;
+  text-indent: -120px;
+}
+
+.customWidth {
+  width: 105px;
+  border-radius: 52px;
+  text-align: left;
+  padding-left: 15px;
+}

@@ -1,4 +1,45 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container calculator-app">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    <span class="main-header"></span>
+    </div>
+
+    <div class="panel-body">
+      <div class="row custom">
+        <span class="result pull-right">{{ currentNum }}</span>
+      </div>
+      <div class="row">
+        <button (click)="allClear()" class="btn-grey">AC</button>
+        <button class="btn-grey">+/-</button>
+        <button class="btn-grey">%</button>
+        <button class="btn-orange">÷</button>
+      </div>
+      <div class="row">
+        <button (click)="click(7)" class="btn-dark-grey">7</button>
+        <button (click)="click(8)" class="btn-dark-grey">8</button>
+        <button (click)="click(9)" class="btn-dark-grey">9</button>
+        <button class="btn-orange">x</button>
+      </div>
+
+      <div class="row">
+        <button (click)="click(4)" class="btn-dark-grey">4</button>
+        <button (click)="click(5)" class="btn-dark-grey">5</button>
+        <button (click)="click(6)" class="btn-dark-grey">6</button>
+        <button class="btn-orange">-</button>
+      </div>
+
+      <div class="row">
+        <button (click)="click(1)" class="btn-dark-grey">1</button>
+        <button (click)="click(2)" class="btn-dark-grey">2</button>
+        <button (click)="click(3)" class="btn-dark-grey">3</button>
+        <button class="btn-orange">+</button>
+      </div>
+
+      <div class="row">
+        <button (click)="click(0)" class="btn-dark-grey customWidth">0</button>
+        <button class="btn-dark-grey">.</button>
+        <button class="btn-orange">=</button>
+      </div>
+    </div>
+  </div>
+</div>
