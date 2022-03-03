@@ -3,7 +3,7 @@ $black: black;
 $btn-grey: #a0a0a0;
 $btn-orange: #f5a002;
 $btn-dark-grey: #333333;
-
+$white: white;
 .container,
 .calculator-app {
   margin-top: 100px;
@@ -17,22 +17,13 @@ $btn-dark-grey: #333333;
 .result {
   margin-right: 8px;
   font-size: 4em;
-  color: white;
+  color: $white;
 }
-// .panel {
-//   .panel-heading {
-//     background-color: $black;
-//     margin-bottom: 86px;
-//     .row {
-//       text-align: right;
-//       margin-right: 22px;
-//     }
-//   }
-//   background-color: $black;
-// }
+
 .custom {
   text-align: right;
   margin-right: 22px;
+  margin-top: 76px;
 }
 
 button {
@@ -50,7 +41,7 @@ button {
 }
 
 .btn-orange {
-  color: white;
+  color: $white;
   background-color: $btn-orange;
 }
 .btn-grey {
@@ -59,7 +50,7 @@ button {
 
 .btn-dark-grey {
   background-color: $btn-dark-grey;
-  color: white;
+  color: $white;
 }
 
 .long-button {
